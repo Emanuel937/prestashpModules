@@ -1,0 +1,74 @@
+/* DIRECTION CONTROLS (NEXT / PREV) */
+
+/*
+.product-thumbinals {
+display: none;
+}
+
+.bx-wrapper .product-thumbinals {
+display: block;
+}
+
+ul.product-thumbinals li {
+float: left;
+padding: 0 10px;
+}
+
+ul.product-thumbinals li img {
+max-width: 100%;
+border: 1px solid #ccc;
+}
+
+.bx-wrapper {
+position: relative;
+margin: 0 auto;
+}
+
+.bx-wrapper .bx-controls-direction a {
+margin-top: 38px;
+height: 20px;
+width: 20px;
+line-height: 0;
+position: absolute;
+top: 45%;
+margin-top: -10px;
+font-size: 0;
+overflow: hidden;
+outline: none;
+text-decoration: none;
+background: #000;
+}
+
+.bx-wrapper .bx-controls-direction a:before {
+padding-left: 2px;
+color: #fff;
+font-family: "FontAwesome";
+font-size: 20px;
+line-height: 22px;
+}
+
+.bx-wrapper .bx-controls-direction a:hover:before {
+color: #333;
+}
+
+.bx-next {
+right: -20px;
+}
+
+.bx-next:before {
+content: ">";
+}
+
+.bx-prev {
+left: -20px;
+}
+
+.bx-prev:before {
+content: "<";
+}
+
+.bx-wrapper .bx-controls-direction a.disabled {
+display: none;
+}
+
+*/

@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "Blocage de recherches pornos",
+    "version": "1.0",
+    "description": "Bloque les recherches contenant des mots-clés inappropriés.",
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": true
+    },
+    "permissions": ["webRequest", "webRequestBlocking", "<all_urls>", "management"],
+    "browser_specific_settings": {
+      "gecko": {
+        "id": "block-search@extension.com"
+      }
+    }
+  }
+  
