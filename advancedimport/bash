@@ -1,0 +1,1 @@
+echo 'export PATH="$HOME/Desktop/workspace/sdk_flutter/flutter/bin:$PATH"' >> ~/.bash_profile

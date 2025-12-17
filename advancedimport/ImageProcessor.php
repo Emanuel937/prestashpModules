@@ -1,4 +1,5 @@
 <?php
+
 class ImageProcessor
 {
     protected $logger;
@@ -10,7 +11,11 @@ class ImageProcessor
 
     public function queueImage($productId, $imageUrl)
     {
+
         try {
+
+            // set images 
+            
             Db::getInstance()->insert('advanced_import_image_queue', [
                 'id_product' => (int)$productId,
                 'image_url' => pSQL($imageUrl),
@@ -19,8 +24,11 @@ class ImageProcessor
                 'created_at' => date('Y-m-d H:i:s'),
                 'updated_at' => date('Y-m-d H:i:s'),
             ]);
+
             $this->logger->logInfo("Queued image for product ID $productId: $imageUrl");
+
         } catch (Exception $e) {
+
             $this->logger->logError("Failed to queue image for product ID $productId: " . $e->getMessage());
         }
     }
